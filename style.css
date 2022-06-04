@@ -1,0 +1,50 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;justify-content: center; align-items: center;
+}
+
+#app{
+    height: 70%; width: 30%;
+    overflow: hidden;
+    border: 3px solid #000;
+    display: flex; justify-content: space-around; align-items: center;
+    flex-direction: column;
+    border-radius: .5rem;
+}
+
+#app img{
+    width: 15rem; height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#app h1{
+    letter-spacing: .8rem;
+    margin-bottom: -3rem;
+}
+#app h3{
+    color: gray;
+}
+
+#app button{
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+
+.male{
+    background-color: rgb(69, 69, 241);
+    box-shadow: 0px 0px 15px 5px rgb(69, 69, 241);
+}
+
+.female{
+    background-color: pink;
+    box-shadow: 0px 0px 15px 5px pink;
+}
